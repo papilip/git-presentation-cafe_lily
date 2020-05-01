@@ -1,0 +1,128 @@
+= Présentation de GIT
+:autor: Philippe Nénert aka papilip <me+lily@papilip.me>
+:lang:  fr
+Café Lily en mode “confiné” du samedi 2 mai 2020
+Ligne non utilisée, mais utile
+Par Philippe Nénert _aka_ *papilip* - me+lily@papilip.me
+
+
+== Fonctionnement type 1/2
+
+[%step]
+* Un dossier par oeuvre
+* De multiples fichiers `.ly` dans ce dossier
+* Sauvegarde régulière de ce dossier sur le disque
+* Dans le meilleur des cas, ces sauvegardes sont stockées dans des clés USB et peut-être sur le cloud.
+
+
+== Fonctionnement type 2/2
+
+[%step]
+* Combien de fichiers vraiment utiles ?
+* Comment revenir en arrière ?
+* Avez-vous des sauvegardes chez vous ?
+* Avez-vous des sauvegardes sur le cloud ?
+
+
+== La solution : GIT
+
+[%step]
+* Sauvegarde toutes les versions de vos fichiers
+* Évite la multiplication des sauvegardes
+* Permets rapidement un retour en arrière
+* Transfert simplement vos oeuvres vers le cloud
+
+
+== GIT, les grands PLUS
+
+[%step]
+* Solution décentralisée
+* Comprime les fichiers
+* Ne transfert que les “diff” ou différences
+* Permets un travail collaboratif sur vos oeuvres
+
+
+== Fonctionnement 1
+(grandes lignes)
+
+[%step]
+* Initialiser un dossier qui sera _“géré”_ avec git, appelé dépôt
+* Marquer les fichiers qui vont être suivis par GIT
+* Enregistrer ces fichiers dans le dépôt
+
+
+== Fonctionnement 2
+(grandes lignes)
+
+[%step]
+* Modifier ces fichiers et enregistrer une nouvelle version dans le dépôt
+* Revenir à une version antérieure si besoin
+* Sauvegarder sur le cloud son dépôt
+
+
+== Quelques commandes 1/2
+
+[%step]
+* `git init` +
+_Initialiser un dépôt git dans un dossier_
+* `git add --all` +
+_Marquer TOUS les fichiers pour être suivi dans le dépôt_
+* `git add mon_fichier.ly` +
+Marquer “mon_fichier.ly” pour être suivi_
+
+
+== Quelques commandes 2/2
+
+[%step]
+* `git commit` +
+_Enregistré les fichiers marqués dans le dépôt_
+* `git push` +
+_Transférer tout le dépôt dans le cloud_
+* `git pull` +
+_Recevoir le dépôt depuis le cloud_
+
+
+== Interface graphique
+(quelques)
+
+* git-cola _[Windows, Mac et Linux]_ libre
+* git-gui _[Windows, Mac et Linux]_ en standard avec git
+* Git Extensions _[Windows]_ libre
+* GitHub Desktop _[Windows, et Mac]_ Open Source
+* GitKraken _[Windows, Mac et Linux]_ gratuit et payant
+* tig _[text]_ libre
+* TortoiseGit _[Windows]_ libre
+* Tower _[Windows, et Mac]_ payant
+
+
+== Installation
+
+* _[Windows]_ https://git-scm.com/download/win
+* _[Mac]_ Installer xcode +
+ou homebrew `brew install git`
+* _[Linux]_ `apt-get install git-all` +
+ou autre commande
+
+
+== Hébergement
+(quelques)
+
+* https://bitbucket.org
+* https://framagit.org
+* https://github.com
+* https://gitlab.com
+
+
+== Références
+
+* _[fr]_ https://fr.wikipedia.org/wiki/Git
+* _[en]_ https://git-scm.com/
+* _[fr]_ https://git-scm.com/book/fr/v2
+
+
+[%notitle]
+== Merci
+
+Merci de votre écoute
+
+Cette présentation est disponible à l’adresse suivante : `https://github.com/papilip/git-presentation-cafe_lily`
