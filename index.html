@@ -147,7 +147,7 @@ td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 </style><!--Printing and PDF exports--><script>var link = document.createElement( 'link' );
 link.rel = 'stylesheet';
 link.type = 'text/css';
-link.href = window.location.search.match( /print-pdf/gi ) ? "node_modules/reveal.js/css/print/pdf.css" : "node_modules/reveal.js/css/print/paper.css";
+link.href = window.location.search.match( /print-pdf/gi ) ? "./css/pdf.css" : "./css/paper.css";
 document.getElementsByTagName( 'head' )[0].appendChild( link );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Présentation de GIT</h1><div class="preamble"><div class="paragraph"><p>Par Philippe Nénert <em>aka</em> <strong>papilip</strong> - <a href="mailto:me+lily@papilip.me">me+lily@papilip.me</a></p></div></div><p class="author"><small>Café Lily en mode “confiné” du samedi 2 mai 2020</small></p></section>
 <section id="_fonctionnement_type_12"><h2>Fonctionnement type 1/2</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Un dossier par oeuvre</p></li><li class="fragment"><p>De multiples fichiers <code>.ly</code> dans ce dossier</p></li><li class="fragment"><p>Sauvegarde régulière de ce dossier sur le disque</p></li><li class="fragment"><p>Dans le meilleur des cas, ces sauvegardes sont stockées dans des clés USB et peut-être sur le cloud.</p></li></ul></div></div></section>
 <section id="_fonctionnement_type_22"><h2>Fonctionnement type 2/2</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Combien de fichiers vraiment utiles ?</p></li><li class="fragment"><p>Comment revenir en arrière ?</p></li><li class="fragment"><p>Avez-vous des sauvegardes chez vous ?</p></li><li class="fragment"><p>Avez-vous des sauvegardes sur le cloud ?</p></li></ul></div></div></section>
@@ -174,7 +174,7 @@ ou autre commande</p></li></ul></div></div></section>
 <div class="ulist"><ul><li><p><a href="https://bitbucket.org" class="bare">https://bitbucket.org</a></p></li><li><p><a href="https://framagit.org" class="bare">https://framagit.org</a></p></li><li><p><a href="https://github.com" class="bare">https://github.com</a></p></li><li><p><a href="https://gitlab.com" class="bare">https://gitlab.com</a></p></li></ul></div></div></section>
 <section id="_références"><h2>Références</h2><div class="slide-content"><div class="ulist"><ul><li><p><em>[fr]</em> <a href="https://fr.wikipedia.org/wiki/Git" class="bare">https://fr.wikipedia.org/wiki/Git</a></p></li><li><p><em>[en]</em> <a href="https://git-scm.com/" class="bare">https://git-scm.com/</a></p></li><li><p><em>[fr]</em> <a href="https://git-scm.com/book/fr/v2" class="bare">https://git-scm.com/book/fr/v2</a></p></li></ul></div></div></section>
 <section id="_merci"><div class="slide-content"><div class="paragraph"><p>Merci de votre écoute</p></div>
-<div class="paragraph"><p>Cette présentation est disponible à l’adresse suivante : <code><a href="https://github.com/papilip/git-presentation-cafe_lily" class="bare">https://github.com/papilip/git-presentation-cafe_lily</a></code></p></div></div></section></div></div><script src="node_modules/reveal.js/js/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<div class="paragraph"><p>Cette présentation est disponible à l’adresse suivante : <code><a href="https://github.com/papilip/git-presentation-cafe_lily" class="bare">https://github.com/papilip/git-presentation-cafe_lily</a></code></p></div></div></section></div></div><script src="./js/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
@@ -330,8 +330,8 @@ Reveal.initialize({
 
   // Optional libraries used to extend on reveal.js
   dependencies: [
-      { src: 'node_modules/reveal.js/plugin/zoom-js/zoom.js', async: true },
-      { src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true }
+      { src: './js/zoom.js', async: true },
+      { src: './js/notes.js', async: true }
   ],
 
 
