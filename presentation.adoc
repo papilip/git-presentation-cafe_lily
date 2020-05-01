@@ -125,4 +125,4 @@ ou autre commande
 
 Merci de votre écoute
 
-Cette présentation est disponible à l’adresse suivante : `https://github.com/papilip/git-presentation-cafe_lily`
+Cette présentation est disponible à l’adresse suivante : `https://papilip.github.io/git-presentation-cafe_lily/`
