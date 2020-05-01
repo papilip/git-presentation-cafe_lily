@@ -57,7 +57,7 @@ Par Philippe Nénert _aka_ *papilip* - me+lily@papilip.me
 [%step]
 * Modifier ces fichiers et enregistrer une nouvelle version dans le dépôt
 * Revenir à une version antérieure si besoin
-* Sauvegarder sur le cloud son dépôt
+* Sauvegarder son dépôt sur le cloud
 
 
 == Quelques commandes 1/2
@@ -68,7 +68,7 @@ _Initialiser un dépôt git dans un dossier_
 * `git add --all` +
 _Marquer TOUS les fichiers pour être suivi dans le dépôt_
 * `git add mon_fichier.ly` +
-Marquer “mon_fichier.ly” pour être suivi_
+_Marquer “mon_fichier.ly” pour être suivi_
 
 
 == Quelques commandes 2/2
@@ -79,20 +79,30 @@ _Enregistré les fichiers marqués dans le dépôt_
 * `git push` +
 _Transférer tout le dépôt dans le cloud_
 * `git pull` +
-_Recevoir le dépôt depuis le cloud_
+_Recevoir les fichiers modifiés du dépôt depuis le cloud_
 
 
-== Interface graphique
-(quelques)
+== Interface graphique 1/2
+(quelques, tous OS)
 
-* git-cola _[Windows, Mac et Linux]_ libre
-* git-gui _[Windows, Mac et Linux]_ en standard avec git
-* Git Extensions _[Windows]_ libre
-* GitHub Desktop _[Windows, et Mac]_ Open Source
-* GitKraken _[Windows, Mac et Linux]_ gratuit et payant
-* tig _[text]_ libre
-* TortoiseGit _[Windows]_ libre
-* Tower _[Windows, et Mac]_ payant
+* tig _libre_
+* git-cola _libre_
+* git-gui _en standard avec git_
+* GitKraken +
+_gratuit pour les projets publiques et payant pour les projets privés_
+
+
+== Interface graphique 1/2
+(quelques, Windows et/ou Mac)
+
+* Git Extensions +
+_Windows, libre_
+* GitHub Desktop +
+_Windows et Mac, open source_
+* TortoiseGit +
+_Windows, libre_
+* Tower +
+_Windows et Mac, payant_
 
 
 == Installation
