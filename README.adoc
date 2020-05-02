@@ -1,0 +1,4 @@
+= Comment utiliser ce dépôt ?
+
+Après avoir clôner le dépôt principal, il faudra créer un dossier `gh-pages` et y re-clôner dépôt.
+Il faudra ensuite changer la branche pour `gh-pages`
