@@ -85,24 +85,23 @@ _Recevoir les fichiers modifiés du dépôt depuis le cloud_
 == Interface graphique 1/2
 (quelques, tous OS)
 
-* tig _libre_
 * git-cola _libre_
 * git-gui _en standard avec git_
-* GitKraken +
-_gratuit pour les projets publiques et payant pour les projets privés_
+* GitKraken _gratuit pour les projets publiques et payant pour les projets privés_
+* SmartGit _payant, gratuit pour les projets libres_
+* tig _libre_
 
 
 == Interface graphique 1/2
-(quelques, Windows et/ou Mac)
+(quelques autres)
 
-* Git Extensions +
-_Windows, libre_
+* Giggle _Linux, libre_
+* Gitg _Windows, Linux, libre_
+* Git Extensions _Windows, libre_
 * GitHub Desktop +
 _Windows et Mac, open source_
-* TortoiseGit +
-_Windows, libre_
-* Tower +
-_Windows et Mac, payant_
+* TortoiseGit _Windows, libre_
+* Tower _Windows et Mac, payant_
 
 
 == Installation

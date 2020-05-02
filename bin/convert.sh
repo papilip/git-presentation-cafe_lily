@@ -1,13 +1,20 @@
 #!/usr/bin/env bash
 
-presentation=''
+pres_adoc=''
 if [ -n "$1" ]; then
-  presentation=$1
+  pres_adoc=$1
 else
-  echo 'Usage: bin/convert.sh presentation.adoc'
-  presentation='presentation.adoc'
+  pres_adoc='presentation.adoc'
 fi
+if [ ! -f "$pres_adoc" ]; then
+  echo 'Usage: bin/convert.sh presentation.adoc'
+fi
+bundle exec asciidoctor-revealjs --attribute revealjsdir=node_modules/reveal.js $pres_adoc
 
-bundle exec asciidoctor-revealjs --attribute revealjsdir=node_modules/reveal.js $presentation
-
-## Ajouter une clause di le fichier présentation exist. PAs de message !
+pres_html='presentation.html'
+if [ -f "$pres_html" ]; then
+  ## Copie le html dans le dossier “gh-pages”
+  cp presentation.html gh-pages/presentation.html
+  ## Change les chemins
+  sed -i.bak 's/node_modules\/reveal.js/./g' gh-pages/presentation.html
+fi
