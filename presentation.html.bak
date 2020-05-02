@@ -166,9 +166,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );</script></head><
 <em>payant, gratuit pour les projets libres</em></p></li></ul></div></div></section>
 <section id="_interface_graphique_12_2"><h2>Interface graphique 1/2</h2><div class="slide-content"><div class="paragraph"><p>(quelques autres)</p></div>
 <div class="ulist"><ul><li><p>Giggle <em>Linux, libre</em></p></li><li><p>Gitg <em>Windows, Linux, libre</em></p></li><li><p>Git Extensions <em>Windows, libre</em></p></li><li><p>GitHub Desktop<br>
-<em>Windows et Mac, open source</em></p></li><li><p>TortoiseGit<br>
-<em>Windows, libre</em></p></li><li><p>Tower<br>
-<em>Windows et Mac, payant</em></p></li></ul></div></div></section>
+<em>Windows et Mac, open source</em></p></li><li><p>TortoiseGit <em>Windows, libre</em></p></li><li><p>Tower <em>Windows et Mac, payant</em></p></li></ul></div></div></section>
 <section id="_installation"><h2>Installation</h2><div class="slide-content"><div class="ulist"><ul><li><p><em>[Windows]</em> <a href="https://git-scm.com/download/win" class="bare">https://git-scm.com/download/win</a></p></li><li><p><em>[Mac]</em> Installer xcode<br>
 ou homebrew <code>brew install git</code></p></li><li><p><em>[Linux]</em> <code>apt-get install git-all</code><br>
 ou autre commande</p></li></ul></div></div></section>
